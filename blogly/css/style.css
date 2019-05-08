@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* general styles  for dry code */
+hr
+{
+    color: orange;
+}
+p
+{
+    margin: 1em;
+}
+body
+{
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+    color: orange;
+}
+button
+{
+    border: 2px solid orange;
+    padding: 1em;
+    background: transparent;
+    color: orange;
+}
+button:hover
+{
+    color: black;
+    background: orange;
+}
+/* end of general styles */
+header
+{
+    background: black;
+}
+header h2
+{
+    margin-left: 1em;
+    margin-top: 0.8em;
+}
+span.trade{
+    font-size: 0.7em;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    opacity: 0.5;
+}
+
+ul, nav{
+    list-style: none;
+    float: right;
+    margin-right: 1em;
+}
+/*nav-bar style*/
+nav{
+    list-style: none;
+}
+li{
+    display: inline-block;
+
+}
+/* anchor tag style */
+a{
+    text-decoration: none;
+    opacity: 1;
+    margin: 0 0.7em;
+    color: orange;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+/* greeting style */
+.greeting
+{
+    margin-top: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+.section-name
+{
+    text-decoration: 2px  solid orange; 
+    margin-left: 0.7em;
+    margin-top: 3em;
+}
+/* grid layout for posts */
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(300px auto);
+    grid-gap: 1em;
+    margin-top: 3em;
+    margin-left:1em;
+    margin-right: 1em;
+}
+.wrapper > div
+{
+    border: 2px solid orange;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    color: orange;
+    transition: background 2s color 1s;
+}
+.wrapper > div:hover
+{
+    background: orange;
+    color: white;
+}
+.wrapper > div:hover a
+{
+    color: white;
+}
+/* responsive grid columns in other devices size */
+@media(max-width: 650px)
+{
+    .wrapper
+    {
+        grid-template-columns: 1fr;
+    }
+    #newsletter
+    {
+       margin-top: 2em;
+       width: auto;
+    }
+}
+button.view-1
+{
+    margin-top: 2em;
+    float: right;
+    margin-bottom: 2em;
+    color: orange;
+}
+button a
+{
+    color: orange;
+}
+button a:hover
+{
+    color: black;
+}
+/* Contact Section */
+.fill-form
+{
+    align-items: center;
+}
+#newsletter
+{
+    width: 300px;
+    background: transparent;
+    color: orange;
+    margin-top: 2em;
+    margin-left: 35%;
+    height: 2em;
+    border: none;
+    border: 2px solid orange;
+    padding: 1em;
+}
+footer
+{
+    margin-bottom: 0;
+    margin-top: 2.5em; 
+    position: absolute;
+    background-color: orange;
+    color: black;
+    width: 100%;
+}
+footer >div
+{
+    padding: 8px 8px;
+}
+.legal
+{
+    text-align: center;
+} 
+.quick a
+{
+    color: black;
+    text-align: center;
+}

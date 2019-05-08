@@ -1,0 +1,31 @@
+.info-field
+{
+    height:  100vh;
+
+}
+header
+{
+    background: black;
+}
+.container-info
+{
+    margin-left: 420px;
+    width: 350px;
+    height: 400px auto;
+    border: 2px solid orange;
+    padding: 2em;
+}
+input[type="email"],input[type="text"]
+{
+    padding: 1em;
+    font-size: 1em;
+    width: 300px;
+    margin-bottom: 1em;
+}
+textarea
+{
+    resize: none;
+    width: 350px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}

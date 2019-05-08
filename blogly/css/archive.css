@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.selector
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(400px,auto); 
+}
+@media(max-width: 650px)
+{
+    .selector
+    {
+        grid-template-columns: 1fr;
+    }
+}
+.selector> div
+{
+    padding: 1em;
+    color: orange;
+    background: black;
+    margin: 1em;
+    border: 2px solid orange;
+}
+
+.box-1>div
+{
+    padding: 1em;
+    color: orange;
+    background: black;
+    margin: 1em;
+}
+.box-1 > div:hover a
+{
+    color: white;
+}
+
+.box-1>div:hover
+{
+    background: orange;
+    color: white;
+}
+.box-2 >div
+{
+    padding: 1em;
+    color: orange;
+    background: black;
+    margin: 1em;
+}

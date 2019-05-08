@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+.card img
+{
+    height: auto;
+    width: 100%;
+    margin-top: 1em;
+}
+.mast img{
+    height: 400px;
+    width: 350px auto;
+    margin-left: 1em;
+}
+.mast-info
+{
+    color: white;
+    font-size: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.about-text
+{
+    text-align: center;
+}
